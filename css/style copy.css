@@ -46,6 +46,69 @@ body {
 
 /* --------------- HEADER -------------------- */
 
+/* --------------- HEADER -------------------- */
+/* 
+header {
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'microgramma';
+}
+
+.navbar {
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;  
+    list-style: none; 
+    justify-content: center;
+
+}
+
+.nav-item {
+    color: white;
+}
+
+nav ul li {
+    margin: 0; 
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+.logo img{
+    max-width: 100%; 
+    display:block;
+}
+
+
+.logo img{
+    max-width: 100%; 
+    object-fit: contain;
+    display: inline-block;
+}
+
+
+*/
+
 header {
     padding: 1rem;
     color: white;
@@ -95,6 +158,58 @@ nav li:hover {
     }
 
 }
+
+
+
+
+/*
+header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-family: 'microgramma';
+}
+
+
+.nav-list {
+    flex-direction: column;
+    gap: 1em;  
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+.logo img{
+    max-width: 90%;
+}
+
+@media (min-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .nav-list {
+        display: flex;
+        gap: 1rem;
+        flex-direction:row; 
+    }
+    
+} */
+
 
 /* ----  Main ---- */
 
@@ -239,6 +354,9 @@ main {
       height: 315px; 
     }
   }
+
+
+  
 
 
 /*   --------------------------------------------------------CIERRE VIDEOS---------------------------------------------------  */
@@ -530,3 +648,14 @@ label{
     transform: scale(1.2);
 }
 
+/* @media (min-width: 600px) {
+    .boton-redes img {
+        width: 80px; 
+        height: 80px;
+        gap: 2px;
+    }
+
+    .footer-fondo-2 {
+        font-size: 2em; 
+    }
+} */
