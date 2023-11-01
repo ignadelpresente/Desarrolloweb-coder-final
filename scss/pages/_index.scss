@@ -1,0 +1,128 @@
+.ultimo-lanzamiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.849);
+    max-width: 480px;
+    padding: 1em;
+    margin: 1em;
+
+    &-titulo {
+        padding: 1em;
+    }
+
+    &-txt {
+        text-align: center;
+        padding: 16px;
+        color: #fff;
+    }
+
+    &-boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'microgramma';
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #007bff;
+        font-size: 14px;
+        border-radius: 1px;
+        transition: background-color 0.3s;
+        cursor: pointer;
+        max-width: 200px;
+        min-width: 200px;
+        margin: 4px;
+
+        a {
+            color: white;
+        }
+
+        &:hover {
+            background-color: #0056b3;
+            transition: transform 0.3s ease;
+        }
+    }
+
+    &-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+}
+
+.navbar-brand img {
+    max-width: 190px;
+    margin-right: 50px;
+}
+
+@include media-up-lsc(sml) {
+    .main-box {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+}
+
+@include media-up(tl) {
+    .main-box {
+        display: flex;
+        justify-content: center;
+    }
+    .lanzamiento {
+        justify-content: center;
+        border-radius: 8px;
+        border-color: black;
+        background-color: rgba(0, 0, 0, 0.849);
+        padding: 1em;
+    }
+}
+
+
+@include media-up(lg) {
+    .main-box {
+        display: flex;
+        justify-content: center;
+    }
+    .lanzamiento {
+        justify-content: center;
+        border-radius: 8px;
+        border-color: black;
+        background-color: rgba(0, 0, 0, 0.849);
+        padding: 1em;
+    }
+}
+
+
+
+// @media (min-width: 480px) and (orientation: landscape) {
+//     .main-box {
+//         display: grid;
+//         place-items: center;
+//         min-height: 100vh;
+//         grid-template-columns: repeat(2, 1fr);
+//         gap: 1em;
+//     }
+// }
+
+// @media (min-width: 1200px) {
+//     .main-box {
+//         display: flex;
+//         justify-content: center;
+//     }
+//     .lanzamiento {
+//         justify-content: center;
+//         border-radius: 8px;
+//         border-color: black;
+//         background-color: rgba(0, 0, 0, 0.849);
+//         padding: 1em;
+//     }

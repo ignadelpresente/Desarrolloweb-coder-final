@@ -1,0 +1,83 @@
+.navbar {
+    background-color: #000000dc;
+   
+
+    &-nav {
+        .nav-link {
+            color: white !important;
+        }
+    }
+    
+    &-toggler {
+        z-index: 1001;
+        position: relative;
+    }
+
+    &-v {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    & li:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
+
+    &-brand img {
+        max-width: 190px;
+        margin-right: 50px;
+    }
+
+    @include media-up-lsc(sml){
+        header {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-list {
+            gap: 1rem;
+            flex-direction: row; 
+            gap: 1em;
+        }
+    }
+
+}
+
+
+
+
+
+
+    // @media (min-width: 480px) and (orientation:landscape) {
+    //     header {
+    //         flex-direction: row;
+    //         justify-content: space-between;
+    //         align-items: center;
+    //     }
+
+    //     .nav-list {
+    //         gap: 1rem;
+    //         flex-direction: row; 
+    //         gap: 1em;
+    //     }
+    // }
+
+    // @media (min-width: 800px) {
+    //     header {
+    //         flex-direction: row;
+    //         justify-content: space-between;
+    //         align-items: center;
+    //     }
+
+    //     .nav-list {
+    //         gap: 1rem;
+    //         flex-direction: row; 
+    //         gap: 1em;
+    //     }
+    // }
+
+
+
+

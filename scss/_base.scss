@@ -1,0 +1,67 @@
+/* -----------------------Variables----------------------- */
+
+$color-principal: #0056b3;
+$color-secundario: #ec3325;
+$color-bg: #000000;
+$imagen-bg:url('../images/background.jpg');
+$fondo-footer-bg: #000000;
+$fondo-footer-padding: 20px;
+
+$breakpoints: (
+    sm: 480px,
+    tl: 768px,
+    lg: 1024px,
+);
+
+$breakpoints-lsc: (
+    sml: 768px,
+    tll: 1024px,
+);
+
+@mixin media-up($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+@mixin media-up-lsc($breakpoint-lsc) {
+    @media screen and (orientation: landscape) and (min-width: map-get($breakpoints-lsc, $breakpoint-lsc)) {
+        @content;
+    }
+}
+
+
+
+* {
+    box-sizing: none;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'microgramma';
+    src: url('../fuentes/microgramma.otf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');  
+
+ul, 
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family:'microgramma';
+    color: white;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+
+

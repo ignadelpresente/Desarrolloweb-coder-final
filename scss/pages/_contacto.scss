@@ -1,0 +1,210 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: auto;
+    margin: 80px auto;
+    background-color: #fbfbfb;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+
+    input {
+        background-color: #fbfbfb;
+        width: 308px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #0056b3;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        background-color: #fbfbfb;
+        width: 305px;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #0056b3;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .ckbox {
+        background-color: #fbfbfb;
+        border-radius: 9px;
+        border-style: solid;
+        border-color: #0056b3;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        width: 5%;
+    }
+
+    .botonsi {
+        display: block;
+        height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: #0056b3;
+        border-color: #0056b3;
+        border-style: solid;
+        border-radius: 10px;
+        width: 300px;
+        cursor: pointer;
+        color: white;
+    }
+
+    label {
+        display: block;
+        float: center;
+    }
+
+    @include media-up(tl){
+        width: 460px;
+
+        input {
+            width: 408px;
+        }
+
+        textarea {
+            width: 405px;
+        }
+
+        .botonsi {
+            width: 400px;
+        }
+    }
+
+    @include media-up(lg) {
+        width: 560px;
+
+        input {
+            width: 508px;
+        }
+
+        textarea {
+            width: 505px;
+        }
+
+        .botonsi {
+            width: 500px;
+        }
+    }
+}
+
+
+// .formulario {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     width: 360px;
+//     height: auto;
+//     margin: 80px auto;
+//     background-color: #fbfbfb;
+//     background-color: rgba(0, 0, 0, 0.849);
+//     color: white;
+
+//     input {
+//         background-color: #fbfbfb;
+//         width: 308px;
+//         height: 40px;
+//         border-radius: 5px;
+//         border-style: solid;
+//         border-width: 1px;
+//         border-color: #0056b3;
+//         margin-top: 10px;
+//         padding-left: 10px;
+//         margin-bottom: 20px;
+//     }
+
+//     textarea {
+//         background-color: #fbfbfb;
+//         width: 305px;
+//         height: 150px;
+//         border-radius: 5px;
+//         border-style: solid;
+//         border-width: 1px;
+//         border-color: #0056b3;
+//         margin-top: 10px;
+//         padding-left: 10px;
+//         margin-bottom: 20px;
+//         padding-top: 15px;
+//     }
+
+//     .ckbox {
+//         background-color: #fbfbfb;
+//         border-radius: 9px;
+//         border-style: solid;
+//         border-color: #0056b3;
+//         margin-top: 10px;
+//         padding-left: 10px;
+//         margin-bottom: 20px;
+//         width: 5%;
+//     }
+
+//     .botonsi {
+//         display: block;
+//         height: 40px;
+//         padding-left: 20px;
+//         padding-right: 20px;
+//         margin-bottom: 50px;
+//         margin-top: 10px;
+//         text-transform: uppercase;
+//         background-color: #0056b3;
+//         border-color: #0056b3;
+//         border-style: solid;
+//         border-radius: 10px;
+//         width: 300px;
+//         cursor: pointer;
+//         color: white;
+//     }
+
+//     label {
+//         display: block;
+//         float: center;
+//     }
+
+//     @media (min-width: 800px) {
+//         width: 460px;
+
+//         input {
+//             width: 408px;
+//         }
+
+//         textarea {
+//             width: 405px;
+//         }
+
+//         .botonsi {
+//             width: 400px;
+//         }
+//     }
+
+//     @media (min-width: 1200px) {
+//         width: 560px;
+
+//         input {
+//             width: 508px;
+//         }
+
+//         textarea {
+//             width: 505px;
+//         }
+
+//         .botonsi {
+//             width: 500px;
+//         }
+//     }
+// }

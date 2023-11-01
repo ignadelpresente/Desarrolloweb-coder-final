@@ -1,0 +1,28 @@
+.tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    width: 360px;
+    height: auto;
+    margin: 80px auto;
+    background-color: #1d1d1de1;
+    border-radius: 35px;
+    box-shadow:  -12px -12px 24px #212020,
+                    12px 12px 24px #272626;
+    color: white;
+
+    @include media-up(tl) {
+        .tour {
+            width: 560px;
+        }
+
+    }
+
+    @include media-up(lg) {
+        .tour {
+            width: 760px;
+        }
+    }
+}

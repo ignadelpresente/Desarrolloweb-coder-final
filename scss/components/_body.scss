@@ -1,0 +1,23 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: $color-bg;
+    background-image: $imagen-bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Inconsolata', monospace;
+}
+
+body::-webkit-scrollbar-track {
+    background: #161616;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #943c3c;
+}
