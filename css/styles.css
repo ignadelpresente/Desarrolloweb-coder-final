@@ -42,6 +42,7 @@ h2 {
 
 .boton-redes img:hover {
   transform: scale(1.2);
+  transition: transform 0.3s ease;
 }
 
 .fondo-footer {
@@ -216,7 +217,6 @@ main .main-box {
 }
 .ultimo-lanzamiento-boton:hover {
   background-color: #0056b3;
-  transition: transform 0.3s ease;
 }
 .ultimo-lanzamiento-img img {
   max-width: 100%;
