@@ -1,5 +1,5 @@
 main {
-    margin-top: 20px;
+    margin-top: 8vh;
 
     .main-box {
         display: grid;
@@ -13,15 +13,68 @@ main {
             grid-template-columns: repeat(2, 1fr);
             gap: 1em; 
         }
+    }
+}
 
-        @include media-up(lg){
-            display: flex;
-            justify-content: center;
-        }
+@include media-up(lg) {
+    .main-box {
+        display: flex;
+        justify-content: space-around;
+        
     }
 }
 
 
+
+// main {
+//     margin-top: 8vh;
+
+//     .main-box {
+//         display: grid;
+//         place-items: center;
+//         min-height: 100vh;
+        
+//         @include media-up-lsc(sml){
+//             display: grid;
+//             place-items: center;
+//             min-height: 100vh;
+//             grid-template-columns: repeat(2, 1fr);
+//             gap: 1em; 
+//         }
+
+//         @include media-up(lg){
+//             display: flex;
+//             justify-content: center;
+//             gap: 1em; 
+            
+//         }
+//     }
+// }
+
+
+
+// main {
+//     margin-top: 12vh;
+
+//     .main-box {
+//         display: grid;
+//         place-items: center;
+//         min-height: 100vh;
+        
+//         @include media-up-lsc(sml){
+//             display: grid;
+//             place-items: center;
+//             min-height: 100vh;
+//             grid-template-columns: repeat(2, 1fr);
+//             gap: 1em; 
+//         }
+
+//         @include media-up(lg){
+//             display: flex;
+//             justify-content: center;
+//         }
+//     }
+// }
 
 
 
